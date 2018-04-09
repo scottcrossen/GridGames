@@ -1,0 +1,63 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  border: 2px outset rgb(221, 221, 221);
+  border-radius: 5px;
+  width: 20%;
+  height: 20%;
+}
+
+td p {
+  margin: 0;
+  font-size: 4vmin;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 50px 0 50px 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.content .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+table {
+  width: 40vmin;
+  height: 40vmin;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    width: 90vmin;
+    height: 90vmin;
+  }
+
+  td p {
+    margin: 0;
+    font-size: 8vmin;
+  }
+}
